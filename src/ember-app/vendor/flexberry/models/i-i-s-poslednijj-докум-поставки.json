@@ -98,7 +98,7 @@
             {
               "name": "наимОрганиз",
               "caption": "Организация",
-              "hidden": false,
+              "hidden": true,
               "index": 5
             }
           ],

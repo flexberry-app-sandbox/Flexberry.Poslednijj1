@@ -36,7 +36,8 @@ namespace IIS.Poslednijj
             "Клиенты.Заказчик as \'Клиент\'",
             "Организация as \'Организация\'",
             "Организация.НаимОрганиз as \'Организация\'"}, Hidden=new string[] {
-            "Клиенты.Заказчик"})]
+            "Клиенты.Заказчик",
+            "Организация.НаимОрганиз"})]
     [AssociatedDetailViewAttribute("ДокумПоставкиE", "ИнфОЗаказе", "ИнфОЗаказеE", true, "", "Информация о заказе", true, new string[] {
             ""})]
     [MasterViewDefineAttribute("ДокумПоставкиE", "Клиенты", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Заказчик")]

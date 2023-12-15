@@ -50,18 +50,9 @@ export let ValidationRules = {
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ФормирРезПосE', 'i-i-s-poslednijj-формир-рез-пос', {
     дата: attr('Дата', { index: 0 }),
-    формирДокРаспр: belongsTo('i-i-s-poslednijj-формир-док-распр', 'Номер документа распределения', {
-      докумПоставки: belongsTo('i-i-s-poslednijj-докум-поставки', '', {
-        клиенты: belongsTo('i-i-s-poslednijj-клиенты', '', {
-          заказчик: attr('Заказчик', { index: 2 }),
-          адресПоставки: attr('Адрес поставки', { index: 3 }),
-          телефон: attr('Телефон', { index: 4 })
-        }, { index: -1, hidden: true })
-      }, { index: -1, hidden: true })
-    }, { index: 1, displayMemberPath: 'номерДокРаспр' }),
-    статусЗаказа: attr('Статус заказа', { index: 5 }),
-    наличиеДеф: attr('Наличие дефектов', { index: 6 }),
-    удовлКлиента: attr('Удовлетворенность клиента', { index: 7 })
+    статусЗаказа: attr('Статус заказа', { index: 6 }),
+    наличиеДеф: attr('Наличие дефектов', { index: 7 }),
+    удовлКлиента: attr('Удовлетворенность клиента', { index: 8 })
   });
 
   modelClass.defineProjection('ФормирРезПосL', 'i-i-s-poslednijj-формир-рез-пос', {

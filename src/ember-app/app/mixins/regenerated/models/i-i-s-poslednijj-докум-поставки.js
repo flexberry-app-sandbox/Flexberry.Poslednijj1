@@ -58,7 +58,7 @@ export let defineProjections = function (modelClass) {
       заказчик: attr('Клиент', { index: 3, hidden: true })
     }, { index: 2, displayMemberPath: 'заказчик' }),
     организация: belongsTo('i-i-s-poslednijj-организация', 'Организация', {
-      наимОрганиз: attr('Организация', { index: 5 })
+      наимОрганиз: attr('Организация', { index: 5, hidden: true })
     }, { index: 4, displayMemberPath: 'наимОрганиз' }),
     инфОЗаказе: hasMany('i-i-s-poslednijj-инф-о-заказе', 'Информация о заказе', {
       количество: attr('Количество', { index: 1 }),
