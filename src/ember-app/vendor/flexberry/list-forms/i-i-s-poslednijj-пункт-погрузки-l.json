@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-poslednijj-пункт-погрузки-e",
+  "editForm": "i-i-s-poslednijj-пункт-погрузки-e",
+  "external": false,
+  "caption": "Пункт погрузки",
+  "name": "IISPoslednijjПунктПогрузкиL",
+  "className": "ПунктПогрузкиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-poslednijj-пункт-погрузки",
+      "modelProjection": "ПунктПогрузкиL"
+    }
+  ]
+}

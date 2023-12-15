@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-poslednijj-список-контей-e",
+  "editForm": "i-i-s-poslednijj-список-контей-e",
+  "external": false,
+  "caption": "Список контейнеров",
+  "name": "IISPoslednijjСписокКонтейL",
+  "className": "СписокКонтейL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-poslednijj-список-контей",
+      "modelProjection": "СписокКонтейL"
+    }
+  ]
+}

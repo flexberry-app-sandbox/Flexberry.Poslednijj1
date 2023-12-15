@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Список барж",
+  "name": "IISPoslednijjСписокБаржE",
+  "className": "СписокБаржE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-poslednijj-список-барж",
+      "modelProjection": "СписокБаржE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-poslednijj-формир-рез-пос-e",
+  "editForm": "i-i-s-poslednijj-формир-рез-пос-e",
+  "external": false,
+  "caption": "Формирование результата поставки",
+  "name": "IISPoslednijjФормирРезПосL",
+  "className": "ФормирРезПосL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-poslednijj-формир-рез-пос",
+      "modelProjection": "ФормирРезПосL"
+    }
+  ]
+}

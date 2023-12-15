@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-poslednijj-клиенты-e",
+  "editForm": "i-i-s-poslednijj-клиенты-e",
+  "external": false,
+  "caption": "Клиенты",
+  "name": "IISPoslednijjКлиентыL",
+  "className": "КлиентыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-poslednijj-клиенты",
+      "modelProjection": "КлиентыL"
+    }
+  ]
+}

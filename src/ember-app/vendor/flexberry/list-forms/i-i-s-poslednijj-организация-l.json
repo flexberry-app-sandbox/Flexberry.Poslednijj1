@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-poslednijj-организация-e",
+  "editForm": "i-i-s-poslednijj-организация-e",
+  "external": false,
+  "caption": "Организация",
+  "name": "IISPoslednijjОрганизацияL",
+  "className": "ОрганизацияL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-poslednijj-организация",
+      "modelProjection": "ОрганизацияL"
+    }
+  ]
+}

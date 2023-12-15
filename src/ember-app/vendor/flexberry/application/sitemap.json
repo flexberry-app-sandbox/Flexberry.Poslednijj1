@@ -1,0 +1,78 @@
+﻿{
+  "applicationCaption": "Poslednijj",
+  "applicationTitle": "Poslednijj",
+  "items": [
+    {
+      "link": null,
+      "menuName": "poslednijj",
+      "caption": "Poslednijj",
+      "title": "Poslednijj",
+      "children": [
+        {
+          "link": "i-i-s-poslednijj-формир-рез-пос-l",
+          "menuName": null,
+          "caption": "Формир рез пос",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-poslednijj-список-барж-l",
+          "menuName": null,
+          "caption": "Список барж",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-poslednijj-организация-l",
+          "menuName": null,
+          "caption": "Организация",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-poslednijj-формир-док-распр-l",
+          "menuName": null,
+          "caption": "Формир док распр",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-poslednijj-докум-поставки-l",
+          "menuName": null,
+          "caption": "Докум поставки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-poslednijj-список-контей-l",
+          "menuName": null,
+          "caption": "Список контей",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-poslednijj-клиенты-l",
+          "menuName": null,
+          "caption": "Клиенты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-poslednijj-пункт-погрузки-l",
+          "menuName": null,
+          "caption": "Пункт погрузки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-poslednijj-товары-l",
+          "menuName": null,
+          "caption": "Товары",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

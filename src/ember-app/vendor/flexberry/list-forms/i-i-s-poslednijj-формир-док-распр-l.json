@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-poslednijj-формир-док-распр-e",
+  "editForm": "i-i-s-poslednijj-формир-док-распр-e",
+  "external": false,
+  "caption": "Формирование документа распределения",
+  "name": "IISPoslednijjФормирДокРаспрL",
+  "className": "ФормирДокРаспрL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-poslednijj-формир-док-распр",
+      "modelProjection": "ФормирДокРаспрL"
+    }
+  ]
+}

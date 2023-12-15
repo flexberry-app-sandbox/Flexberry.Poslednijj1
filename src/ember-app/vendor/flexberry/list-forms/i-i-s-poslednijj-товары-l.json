@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-poslednijj-товары-e",
+  "editForm": "i-i-s-poslednijj-товары-e",
+  "external": false,
+  "caption": "Товары",
+  "name": "IISPoslednijjТоварыL",
+  "className": "ТоварыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-poslednijj-товары",
+      "modelProjection": "ТоварыL"
+    }
+  ]
+}

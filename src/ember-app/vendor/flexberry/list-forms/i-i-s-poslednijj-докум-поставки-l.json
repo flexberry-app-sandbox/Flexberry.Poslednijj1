@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-poslednijj-докум-поставки-e",
+  "editForm": "i-i-s-poslednijj-докум-поставки-e",
+  "external": false,
+  "caption": "Документ поставки",
+  "name": "IISPoslednijjДокумПоставкиL",
+  "className": "ДокумПоставкиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-poslednijj-докум-поставки",
+      "modelProjection": "ДокумПоставкиL"
+    }
+  ]
+}
