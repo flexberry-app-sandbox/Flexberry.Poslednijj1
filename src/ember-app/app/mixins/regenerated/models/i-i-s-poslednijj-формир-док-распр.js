@@ -83,6 +83,9 @@ export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ФормирДокРаспрL', 'i-i-s-poslednijj-формир-док-распр', {
     дата: attr('Дата', { index: 0 }),
     номерДокРаспр: attr('Номер документа распределения', { index: 1 }),
+    докумПоставки: belongsTo('i-i-s-poslednijj-докум-поставки', 'Номер документа поставки', {
+      номерДокПост: attr('Номер документа поставки', { index: 2 })
+    }, { index: -1, hidden: true }),
     списокБарж: belongsTo('i-i-s-poslednijj-список-барж', 'Номер баржи', {
       номерБаржи: attr('Номер баржи', { index: 3 })
     }, { index: -1, hidden: true }),
@@ -91,9 +94,6 @@ export let defineProjections = function (modelClass) {
     }, { index: -1, hidden: true }),
     списокКонтей: belongsTo('i-i-s-poslednijj-список-контей', 'Номер контейнера', {
       номерКонтей: attr('Номер контейнера', { index: 5 })
-    }, { index: -1, hidden: true }),
-    докумПоставки: belongsTo('i-i-s-poslednijj-докум-поставки', 'Номер документа поставки', {
-
-    }, { index: 2, displayMemberPath: 'номерДокПост' })
+    }, { index: -1, hidden: true })
   });
 };
