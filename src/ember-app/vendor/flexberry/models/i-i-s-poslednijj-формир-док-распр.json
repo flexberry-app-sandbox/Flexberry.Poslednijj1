@@ -76,8 +76,8 @@
       ],
       "belongsTo": [
         {
-          "lookupValue": "НомДокПост",
-          "lookupValueField": "номДокПост",
+          "lookupValue": "НомерДокПост",
+          "lookupValueField": "номерДокПост",
           "relationName": "ДокумПоставки",
           "belongsTo": [
             {
@@ -91,19 +91,19 @@
                   "name": "заказчик",
                   "caption": "Заказчик",
                   "hidden": false,
-                  "index": 3
+                  "index": 4
                 },
                 {
                   "name": "адресПоставки",
                   "caption": "Адрес поставки",
                   "hidden": false,
-                  "index": 4
+                  "index": 5
                 },
                 {
                   "name": "телефон",
                   "caption": "Телефон",
                   "hidden": false,
-                  "index": 5
+                  "index": 6
                 }
               ],
               "index": -1,
@@ -115,7 +115,14 @@
             }
           ],
           "hidden": false,
-          "attrs": [],
+          "attrs": [
+            {
+              "name": "номерДокПост",
+              "caption": "Номер документа поставки",
+              "hidden": true,
+              "index": 3
+            }
+          ],
           "index": 2,
           "type": "standard",
           "caption": "Номер документа поставки",
@@ -130,7 +137,7 @@
           "belongsTo": [],
           "hidden": false,
           "attrs": [],
-          "index": 6,
+          "index": 7,
           "type": "standard",
           "caption": "Номер баржи",
           "name": "списокБарж",
@@ -144,7 +151,7 @@
           "belongsTo": [],
           "hidden": false,
           "attrs": [],
-          "index": 7,
+          "index": 8,
           "type": "standard",
           "caption": "Адрес погрузки",
           "name": "пунктПогрузки",
@@ -158,7 +165,7 @@
           "belongsTo": [],
           "hidden": false,
           "attrs": [],
-          "index": 8,
+          "index": 9,
           "type": "standard",
           "caption": "Номер контейнера",
           "name": "списокКонтей",

@@ -33,13 +33,15 @@ namespace IIS.Poslednijj
             "Дата as \'Дата\'",
             "НомерДокРаспр as \'Номер документа распределения\'",
             "ДокумПоставки as \'Номер документа поставки\'",
+            "ДокумПоставки.НомерДокПост as \'Номер документа поставки\'",
             "ДокумПоставки.Клиенты.Заказчик as \'Заказчик\'",
             "ДокумПоставки.Клиенты.АдресПоставки as \'Адрес поставки\'",
             "ДокумПоставки.Клиенты.Телефон as \'Телефон\'",
             "СписокБарж as \'Номер баржи\'",
             "ПунктПогрузки as \'Адрес погрузки\'",
-            "СписокКонтей as \'Номер контейнера\'"})]
-    [MasterViewDefineAttribute("ФормирДокРаспрE", "ДокумПоставки", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "НомДокПост")]
+            "СписокКонтей as \'Номер контейнера\'"}, Hidden=new string[] {
+            "ДокумПоставки.НомерДокПост"})]
+    [MasterViewDefineAttribute("ФормирДокРаспрE", "ДокумПоставки", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "НомерДокПост")]
     [MasterViewDefineAttribute("ФормирДокРаспрE", "СписокБарж", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "НомерБаржи")]
     [MasterViewDefineAttribute("ФормирДокРаспрE", "ПунктПогрузки", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Адрес")]
     [MasterViewDefineAttribute("ФормирДокРаспрE", "СписокКонтей", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "НомерКонтей")]

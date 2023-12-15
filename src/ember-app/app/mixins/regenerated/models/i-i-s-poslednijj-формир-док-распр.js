@@ -63,21 +63,22 @@ export let defineProjections = function (modelClass) {
     дата: attr('Дата', { index: 0 }),
     номерДокРаспр: attr('Номер документа распределения', { index: 1 }),
     докумПоставки: belongsTo('i-i-s-poslednijj-докум-поставки', 'Номер документа поставки', {
+      номерДокПост: attr('Номер документа поставки', { index: 3, hidden: true }),
       клиенты: belongsTo('i-i-s-poslednijj-клиенты', '', {
-        заказчик: attr('Заказчик', { index: 3 }),
-        адресПоставки: attr('Адрес поставки', { index: 4 }),
-        телефон: attr('Телефон', { index: 5 })
+        заказчик: attr('Заказчик', { index: 4 }),
+        адресПоставки: attr('Адрес поставки', { index: 5 }),
+        телефон: attr('Телефон', { index: 6 })
       }, { index: -1, hidden: true })
-    }, { index: 2, displayMemberPath: 'номДокПост' }),
+    }, { index: 2, displayMemberPath: 'номерДокПост' }),
     списокБарж: belongsTo('i-i-s-poslednijj-список-барж', 'Номер баржи', {
 
-    }, { index: 6, displayMemberPath: 'номерБаржи' }),
+    }, { index: 7, displayMemberPath: 'номерБаржи' }),
     пунктПогрузки: belongsTo('i-i-s-poslednijj-пункт-погрузки', 'Адрес погрузки', {
 
-    }, { index: 7, displayMemberPath: 'адрес' }),
+    }, { index: 8, displayMemberPath: 'адрес' }),
     списокКонтей: belongsTo('i-i-s-poslednijj-список-контей', 'Номер контейнера', {
 
-    }, { index: 8, displayMemberPath: 'номерКонтей' })
+    }, { index: 9, displayMemberPath: 'номерКонтей' })
   });
 
   modelClass.defineProjection('ФормирДокРаспрL', 'i-i-s-poslednijj-формир-док-распр', {
