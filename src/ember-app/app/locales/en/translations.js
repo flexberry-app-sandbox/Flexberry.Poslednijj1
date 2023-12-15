@@ -110,6 +110,58 @@ $.extend(true, translations, {
           caption: 'Home',
           title: ''
         },
+        логистика: {
+          caption: 'Логистика',
+          title: 'Логистика',
+          'i-i-s-poslednijj-клиенты-l': {
+            caption: 'Клиенты',
+            title: ''
+          },
+          'данные-об-организации': {
+            caption: 'Данные об организации',
+            title: 'Данные об организации',
+            'i-i-s-poslednijj-список-контей-l': {
+              caption: 'Список контейнеров',
+              title: 'Список контей'
+            },
+            'i-i-s-poslednijj-организация-l': {
+              caption: 'Организация',
+              title: 'Организация'
+            },
+            'i-i-s-poslednijj-список-барж-l': {
+              caption: 'Список барж',
+              title: 'Список барж'
+            },
+            'i-i-s-poslednijj-пункт-погрузки-l': {
+              caption: 'Пункты погрузки',
+              title: 'Пункт погрузки'
+            }
+          },
+          номенклатура: {
+            caption: 'Номенклатура',
+            title: 'Номенклатура',
+            'i-i-s-poslednijj-товары-l': {
+              caption: 'Товары',
+              title: 'Товары'
+            }
+          },
+          документация: {
+            caption: 'Документация',
+            title: 'Документация',
+            'i-i-s-poslednijj-формир-док-распр-l': {
+              caption: 'Формирование документа распределения',
+              title: 'Формир док распр'
+            },
+            'i-i-s-poslednijj-формир-рез-пос-l': {
+              caption: 'Формирования результата поставки',
+              title: 'Формир рез пос'
+            },
+            'i-i-s-poslednijj-докум-поставки-l': {
+              caption: 'Документ поставки',
+              title: 'Докум поставки'
+            }
+          }
+        },
         poslednijj: {
           caption: 'Poslednijj',
           title: 'Poslednijj',
