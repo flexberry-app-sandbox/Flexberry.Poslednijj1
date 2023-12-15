@@ -22,7 +22,7 @@ export default Controller.extend({
             link: 'i-i-s-poslednijj-клиенты-l',
             caption: i18n.t('forms.application.sitemap.логистика.i-i-s-poslednijj-клиенты-l.caption'),
             title: i18n.t('forms.application.sitemap.логистика.i-i-s-poslednijj-клиенты-l.title'),
-            icon: 'paperclip',
+            icon: 'book',
             children: null
           }, {
             link: null,
@@ -32,25 +32,25 @@ export default Controller.extend({
               link: 'i-i-s-poslednijj-список-контей-l',
               caption: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-poslednijj-список-контей-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-poslednijj-список-контей-l.title'),
-              icon: 'chart line',
+              icon: 'suitcase',
               children: null
             }, {
               link: 'i-i-s-poslednijj-организация-l',
               caption: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-poslednijj-организация-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-poslednijj-организация-l.title'),
-              icon: 'briefcase',
+              icon: 'edit',
               children: null
             }, {
               link: 'i-i-s-poslednijj-список-барж-l',
               caption: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-poslednijj-список-барж-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-poslednijj-список-барж-l.title'),
-              icon: 'book',
+              icon: 'briefcase',
               children: null
             }, {
               link: 'i-i-s-poslednijj-пункт-погрузки-l',
               caption: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-poslednijj-пункт-погрузки-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.данные-об-организации.i-i-s-poslednijj-пункт-погрузки-l.title'),
-              icon: 'folder open',
+              icon: 'suitcase',
               children: null
             }]
           }, {
@@ -61,7 +61,7 @@ export default Controller.extend({
               link: 'i-i-s-poslednijj-товары-l',
               caption: i18n.t('forms.application.sitemap.логистика.номенклатура.i-i-s-poslednijj-товары-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.номенклатура.i-i-s-poslednijj-товары-l.title'),
-              icon: 'briefcase',
+              icon: 'phone',
               children: null
             }]
           }, {
@@ -72,7 +72,7 @@ export default Controller.extend({
               link: 'i-i-s-poslednijj-формир-док-распр-l',
               caption: i18n.t('forms.application.sitemap.логистика.документация.i-i-s-poslednijj-формир-док-распр-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.документация.i-i-s-poslednijj-формир-док-распр-l.title'),
-              icon: 'briefcase',
+              icon: 'file',
               children: null
             }, {
               link: 'i-i-s-poslednijj-формир-рез-пос-l',
@@ -84,7 +84,7 @@ export default Controller.extend({
               link: 'i-i-s-poslednijj-докум-поставки-l',
               caption: i18n.t('forms.application.sitemap.логистика.документация.i-i-s-poslednijj-докум-поставки-l.caption'),
               title: i18n.t('forms.application.sitemap.логистика.документация.i-i-s-poslednijj-докум-поставки-l.title'),
-              icon: 'list',
+              icon: 'tasks',
               children: null
             }]
           }]
